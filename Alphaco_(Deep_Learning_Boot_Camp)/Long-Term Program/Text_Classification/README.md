@@ -8,7 +8,7 @@
 
 ### Reference_1
 * 데이콘 리더보드 : [Private 2nd] Huggingface를 사용한 베이스라인
-* 참조한 내용 : KFold 및 Ensemble
+* 참조한 내용 : KFold, 사용한 모델, Ensemble
 
 ### Reference_2
 * 데이콘 리더보드: 최종 3th : [Private 5위 - 0.83705 / Back Translation]
