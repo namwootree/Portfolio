@@ -1,7 +1,6 @@
 # 뉴스 토픽 분류 모델 개선 방안
 * https://www.notion.so/56ffd01ec1ec4fef8ff4e7ad4ba026ce
 * 목표 : 데이콘 경진 대회 수상작 모델을 개선하여 더 나은 성능을 개시
-![스크린샷 2022-06-13 06.35.34.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6a66dc5-1ead-4c9c-b286-9f368f195854/스크린샷_2022-06-13_06.35.34.png)
 
 ### [Main]_StandardKFold_(5)_Ensemble_(3)
 * 증식한 데이터를 Stratified K Fold (5)를 적용
