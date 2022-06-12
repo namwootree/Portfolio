@@ -44,6 +44,7 @@
 
 ### Comparing_model_performence
 * 모델 성능 비교
+* bert-base-multilingual-uncased
 * klue_roberta-base
 * klue_roberta-large
 * monologg_kobert
