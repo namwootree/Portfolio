@@ -41,3 +41,11 @@
 * 라벨 별 데이터 분포 확인
 * 라벨 별 문장 길이 확인 (최단/최장/최빈)
 * 워드 클라우드를 통해 라벨 별 주요 단어 확인
+
+### Comparing_model_performence
+* 모델 성능 비교
+* klue_roberta-base
+* klue_roberta-large
+* monologg_kobert
+* xlm-roberta-large
+* klue_roberta-small
