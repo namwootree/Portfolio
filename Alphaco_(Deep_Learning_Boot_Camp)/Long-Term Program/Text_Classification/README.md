@@ -1,4 +1,5 @@
 # 뉴스 토픽 분류 모델 개선 방안
+* https://www.notion.so/56ffd01ec1ec4fef8ff4e7ad4ba026ce
 * 목표 : 데이콘 경진 대회 수상작 모델을 개선하여 더 나은 성능을 개시
 
 ### [Main]_StandardKFold_(5)_Ensemble_(3)
