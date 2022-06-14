@@ -4,7 +4,7 @@
 
 ### [Main]_StandardKFold_(5)_Ensemble_(3)
 * 증식한 데이터를 Stratified K Fold (5)를 적용
-* klue/roberta-base, bert-base-multilingual-uncased, xlm-roberta-base 모델을 사용하여 Soft Voting 적용
+* klue/roberta-base, bert-base-multilingual-uncased, xlm-roberta-base 모델을 사용하여 Weight Voting 적용
 * 빠른 전이 학습을 위해 Colab의 TPU 사용
 
 ### Reference_1
