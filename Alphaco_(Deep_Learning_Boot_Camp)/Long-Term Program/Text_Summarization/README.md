@@ -5,8 +5,10 @@
 ### Reference
 * 데이콘 가스・에너지분야 문서요약 모델개발 경진대회 2등 수상작
 
-### Data_Visualization
+### Data_Preprocessing
 * JSON -> Data Frame
+
+### Data_Visualization
 * 데이터 시각화
 
 ### Data_Augmentation
