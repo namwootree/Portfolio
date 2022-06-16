@@ -10,5 +10,5 @@
 * 데이터 시각화
 
 ### Data_Augmentation
-* Easy Data Augmentation 중 RI & SR
+* Easy Data Augmentation 
 
