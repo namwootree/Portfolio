@@ -3,7 +3,7 @@
 * 터미널에서 Chatbot이 실행
 
 ### preprocssing_and_chatbot
-* Transformer를 활용하여 고객의 질문에 적절한 답변을 생성함
+* Transformer를 활용하여 고객의 질문에 적절한 답변을 출력함
 
 ### emotion_classification
 * klue/bert-base를 활용하여 고객의 질문이 긍정적이지 부정적인 판단
