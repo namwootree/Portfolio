@@ -95,7 +95,7 @@
   * 앙상블
   
 **4. 추가 시도 사항**
-  * Optuna 
+  * Optuna 활용
   * LGBM Regressor 및 neural network Model 사용
   * 다양한 하이퍼 파라미터 Depth 변경 
   * 다양한 KFold K 변경
