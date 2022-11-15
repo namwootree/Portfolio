@@ -99,7 +99,7 @@
   * LGBM Regressor 및 neural network Model 사용
   * 다양한 하이퍼 파라미터 수정 시도 (depth, learning rate, features weight)
   * 다양한 KFold K 변경
-  * 스태킹 앙상블
+  * CV 기반의 스태킹 앙상블
     * Meta Model : LinearSVR 및 Logistic Regression
 
 ---
