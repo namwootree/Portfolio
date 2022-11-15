@@ -26,7 +26,7 @@
 ### 사용한 Tool
 
 * Python
-* Pandas / Numpy / Pytimekr / Scikit - Learn / Matplotlib / Seaborn / Catboost
+* Pandas / Numpy / Pytimekr / Scikit - Learn / Matplotlib / Seaborn / Catboost / Optuna
 * Tensor Flow
 * Colab / Visual Studio Code
 
@@ -94,9 +94,13 @@
   * 교차 검증 활용
   * 앙상블
   
-**4. 추가 시도 사항** (최종 결과 도출에는 비사용)
+**4. 추가 시도 사항**
+  * Optuna
   * LGBM Regressor 및 neural network Model 사용
+  * 다양한 하이퍼 파라미터 Depth 변경 
+  * 다양한 KFold K 변경
   * 스태킹 앙상블
+    * Meta Model : LinearSVR 및 Logistic Regression
 
 ---
 
