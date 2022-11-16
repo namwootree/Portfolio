@@ -68,14 +68,14 @@
 
 ## 프로세스
 
-**1. EDA**
+**1. EDA** [(Link)](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/Visualization_Data_Set.ipynb)
 
   * 불균형한 칼럼이 있음을 확인
   * 칼럼의 Value 별 Target 분포(최대값, 최소값, 최빈값)가 크게 달라지는 칼럼이 있음을 확인
   * 도로명이 '-'으로 Null 값이 존재함을 확인
   * 동일한 도로라도 요일 및 시간대에 따라 Target 값이 변하는 것을 확인
   
-**2. Preprocessing Data Set**
+**2. Preprocessing Data Set** [(Link)](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/Preprocessing.ipynb)
 
   * 다양한 전처리 시도를 통해 예측 결과가 좋았던 3가지의 전처리된 데이터 셋을 최종 사용
   
@@ -87,7 +87,7 @@
     * 도로명이 '-'인 데이터를 출발 도로명 및 도착 도로명으로 변경
     * 불필요한 변수 제거
 
-**3. Modeling**
+**3. Modeling** [(Link)](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/Catboost.ipynb)
 
   * CatBoostRegressor 모델 사용
   * 칼럼 수의 증가 (데이터 복잡도 증가)에 따른 하이퍼 파라미터 depth 증가 (모델 복잡도 증가)
@@ -95,12 +95,12 @@
   * 앙상블
   
 **추가 시도 사항** (최종 결과 도출에는 비사용)
-  * Optuna 활용
-  * LGBM Regressor 및 neural network Model 사용
+  * Optuna 활용 [(Link)](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/Optuna.ipynb)
+  * LGBM Regressor 및 neural network Model 사용 [LGBM](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/LGBM.ipynb) / [Neural Network](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/TF_Neural_Network.ipynb)
   * 다양한 하이퍼 파라미터 수정 시도 (depth, learning rate, features weight)
   * 다양한 KFold K 변경
-  * CV 기반의 스태킹 앙상블
-    * Meta Model : LinearSVR 및 Logistic Regression
+  * CV 기반의 스태킹 앙상블 [{Link}](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/CV_Stacking.ipynb)
+    * Meta Model : LinearSVR 및 Logistic Regression [(Link)](https://github.com/namwootree/Portfolio/blob/main/Competition/Dacon/JeJu_Traffic/meta_model.ipynb)
 
 ---
 
@@ -150,6 +150,11 @@
 
 ### 다양한 시도의 필요성
 
+  * 파라미터 수정
+
+    - CatBoost의 L2 규제 값을 높여으면 일반화에 도움이 될 것으로 에상
+    - CV 기반의 스테킹 앙상블의 Meta Model인 LinearSVR의 epsilon 및 C의 하이퍼 파라미터 값을 수정하였으면 성능 향상에 도움이 될 것으로 예상
+
   * **파생변수 생성**
 
     - 2022년 8월 이전 데이터만 사용할 수 있기에 외부 데이터를 어떻게 사용해야 하는 지 충분히 숙지하지 못함
@@ -177,7 +182,7 @@
     - 상대적으로 작은 시간을 통해 찾은 파라미터를 모델에 적용하였으나 성능이 크게 낮음
 
     - 다음에는 Optuna를 제대로 사용할 수 있기를 기대함
-
+  
 
 ### 상위권의 코드 공유를 통한 피드백
 
