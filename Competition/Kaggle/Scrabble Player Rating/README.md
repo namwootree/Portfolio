@@ -2,7 +2,9 @@
 
 ## Scrabble Game Rule
 
-[You Tube : 공식 게임 규칙 소개 영샹](https://www.youtube.com/watch?v=RYeXv1vmLGM)
+[You Tube : 공식 게임 규칙 소개 영샹](https://www.youtube.com/watch?v=RYeXv1vmLGM)<br>
+[WIKIPEDIA : 위키백과 설명 글](https://en.wikipedia.org/wiki/Scrabble)<br>
+[온라인 게임 체험](https://playscrabble.com/)
 
 * 원하는 만큼 타일을 사용하여 단어 하나를 중앙에 배치
 
