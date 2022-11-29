@@ -43,6 +43,14 @@
 
 ### 참여자
 
+* 권남우 [(Git Hub)](https://github.com/namwootree)
+  - 대회 총괄 
+  - 데이터 전처리 및 시각화
+  - 모델링
+  
+* 정동한 [(Git Hub)](https://github.com/HansJeoung)
+  - 데이터 전처리
+
 ### 사용한 Tool
 
 ### 결과
