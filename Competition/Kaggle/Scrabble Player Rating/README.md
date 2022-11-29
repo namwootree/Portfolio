@@ -71,6 +71,10 @@
 
 ## 프로세스
 
+### Reference
+
+* [Full Walkthrough (EDA + FE + Model Tuning)](https://www.kaggle.com/code/ijcrook/full-walkthrough-eda-fe-model-tuning) 
+
 1. DDA & EDA
 2. Preprocessing
 3. Modeling
