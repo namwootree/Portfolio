@@ -54,3 +54,28 @@
 ### 사용한 Tool
 
 ### 결과
+
+---
+
+## 데이터 소개
+
+### Train
+
+### Games
+
+### Turns
+
+### Test
+
+---
+
+## 프로세스
+
+1. DDA & EDA
+2. Preprocessing
+3. Modeling
+
+---
+
+## 느낀 점
+
